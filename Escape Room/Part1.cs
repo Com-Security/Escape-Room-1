@@ -23,13 +23,30 @@ namespace Escape_Room
 
         private void Nxtbtn_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Phishing" || textBox1.Text == "phisphing" || textBox1.Text == "PHISHHING")
+            if (textBox1.Text == "Phishing" || textBox1.Text == "phishing" || textBox1.Text == "PHISHHING")
             {
                 MessageBox.Show("Correct");
+
             }
             else
             {
                 MessageBox.Show("Incorrect");
+
+                minutes = minutes - 1;
+                Minute_lbl.Text = minutes.ToString();
+
+                if (minutes < 0)
+                {
+                    int temp = 0;
+                    Minute_lbl.Text = temp.ToString();
+
+                    seconds = seconds - seconds;
+                    Second_lbl.Text = seconds.ToString();
+                    if (seconds == 0)
+                    {
+                        //MessageBox.Show("Ran out of time please try again.");
+                    }
+                }
             }
             //MessageBox.Show("Loading Second Page");
             //panel1.Hide();
@@ -39,7 +56,26 @@ namespace Escape_Room
         private void Part1_Load(object sender, EventArgs e)
         {
             panel1.BackColor = Color.FromArgb(100, 100, 100, 100);
-           // panel2.BackColor = Color.FromArgb(100, 100, 100, 100);
+            
+                //DECLARE & INITIALIZE LABEL VARIABLES
+                seconds = int.Parse(Second_lbl.Text);
+                minutes = int.Parse(Minute_lbl.Text);
+                hour = int.Parse(Hour_lbl.Text);
+
+                //INITIALIZE VARIABLES
+                seconds = 0;
+                minutes = 10;
+                hour = 0;
+
+                //PASS VALUES TO LABELS
+                Hour_lbl.Text = hour.ToString();
+                Minute_lbl.Text = minutes.ToString();
+                Second_lbl.Text = seconds.ToString();
+
+                //START COUNT DOWN
+                timer1.Enabled = true;
+            
+            // panel2.BackColor = Color.FromArgb(100, 100, 100, 100);
         }
 
         private void hintbtn1_Click(object sender, EventArgs e)
@@ -102,7 +138,8 @@ namespace Escape_Room
                     if (Hour_lbl.Text == "0")
                     {
                         timer1.Enabled = false;
-                        MessageBox.Show("Ran out of time");
+                        MessageBox.Show("Ran out of time.... EXITING... ");
+                        Application.Exit();
                     }
                 }
             }

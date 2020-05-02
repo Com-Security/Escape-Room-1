@@ -86,7 +86,8 @@ namespace Escape_Room
                     if (Hour_lbl.Text == "0")
                     {
                         timer1.Enabled = false;
-                        MessageBox.Show("Ran out of time");
+                        MessageBox.Show("Ran out of time.... EXITING... ");
+                        Application.Exit();
                     }
                 }
             }
@@ -119,10 +120,7 @@ namespace Escape_Room
 
                     seconds = seconds - seconds;
                     Second_lbl.Text = seconds.ToString();
-                    if(seconds == 0)
-                    {
-                        MessageBox.Show("Ran out of time please try again.");
-                    }
+                    
                 }
 
             }
