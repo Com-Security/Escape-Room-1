@@ -228,5 +228,21 @@ namespace Escape_Room
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //DECLARE & INITIALIZE LABEL VARIABLES
+            int seconds = int.Parse(Second_lbl.Text);
+            int minutes = int.Parse(Minute_lbl.Text);
+            int hour = int.Parse(Hour_lbl.Text);
+
+            //INITIALIZE VARIABLES
+            seconds = 0;
+            minutes = 10;
+            hour = 0;
+
+            Hour_lbl.Text = Hour_txt.Text;
+            Minute_lbl.Text = Minute_txt.Text;
+            Second_lbl.Text = Second_txt.Text;
+        }
     }
 }
