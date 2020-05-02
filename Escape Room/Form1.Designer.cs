@@ -115,7 +115,6 @@
             this.Question1_txt.Name = "Question1_txt";
             this.Question1_txt.Size = new System.Drawing.Size(251, 38);
             this.Question1_txt.TabIndex = 6;
-            this.Question1_txt.TextChanged += new System.EventHandler(this.Question1_txt_TextChanged);
             // 
             // Clear_btn
             // 

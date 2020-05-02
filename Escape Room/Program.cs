@@ -18,7 +18,7 @@ namespace Escape_Room
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new DefaultForm());
             //Application.Run(new Part1());
-          Application.Run(new Part2());
+            Application.Run(new Part2());
 
         }
     }
