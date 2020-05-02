@@ -47,22 +47,10 @@
             this.Second_lbl = new System.Windows.Forms.Label();
             this.Minute_lbl = new System.Windows.Forms.Label();
             this.Hour_lbl = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Set_btn = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Second_txt = new System.Windows.Forms.TextBox();
-            this.Minute_txt = new System.Windows.Forms.TextBox();
-            this.Hour_txt = new System.Windows.Forms.TextBox();
-            this.Reset_btn = new System.Windows.Forms.Button();
-            this.Stop_btn = new System.Windows.Forms.Button();
-            this.Start_btn = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -191,10 +179,9 @@
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.groupBox2);
-            this.panel2.Controls.Add(this.groupBox1);
-            this.panel2.Location = new System.Drawing.Point(865, 39);
+            this.panel2.Location = new System.Drawing.Point(889, 58);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(392, 346);
+            this.panel2.Size = new System.Drawing.Size(339, 124);
             this.panel2.TabIndex = 1;
             // 
             // groupBox2
@@ -205,7 +192,7 @@
             this.groupBox2.Controls.Add(this.Second_lbl);
             this.groupBox2.Controls.Add(this.Minute_lbl);
             this.groupBox2.Controls.Add(this.Hour_lbl);
-            this.groupBox2.Location = new System.Drawing.Point(34, 20);
+            this.groupBox2.Location = new System.Drawing.Point(9, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(317, 93);
             this.groupBox2.TabIndex = 2;
@@ -265,130 +252,6 @@
             this.Hour_lbl.TabIndex = 0;
             this.Hour_lbl.Text = "00";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.Set_btn);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.Second_txt);
-            this.groupBox1.Controls.Add(this.Minute_txt);
-            this.groupBox1.Controls.Add(this.Hour_txt);
-            this.groupBox1.Controls.Add(this.Reset_btn);
-            this.groupBox1.Controls.Add(this.Stop_btn);
-            this.groupBox1.Controls.Add(this.Start_btn);
-            this.groupBox1.Location = new System.Drawing.Point(11, 134);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(359, 187);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Set Timer";
-            // 
-            // Set_btn
-            // 
-            this.Set_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Set_btn.Location = new System.Drawing.Point(282, 145);
-            this.Set_btn.Name = "Set_btn";
-            this.Set_btn.Size = new System.Drawing.Size(58, 36);
-            this.Set_btn.TabIndex = 8;
-            this.Set_btn.Text = "Set";
-            this.Set_btn.UseVisualStyleBackColor = true;
-            this.Set_btn.Click += new System.EventHandler(this.Set_btn_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(207, 151);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 25);
-            this.label3.TabIndex = 13;
-            this.label3.Text = ":";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(136, 151);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(19, 25);
-            this.label2.TabIndex = 12;
-            this.label2.Text = ":";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(13, 145);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 34);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Set:";
-            // 
-            // Second_txt
-            // 
-            this.Second_txt.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.Second_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Second_txt.Location = new System.Drawing.Point(232, 149);
-            this.Second_txt.Name = "Second_txt";
-            this.Second_txt.Size = new System.Drawing.Size(43, 30);
-            this.Second_txt.TabIndex = 10;
-            // 
-            // Minute_txt
-            // 
-            this.Minute_txt.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.Minute_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Minute_txt.Location = new System.Drawing.Point(161, 148);
-            this.Minute_txt.Name = "Minute_txt";
-            this.Minute_txt.Size = new System.Drawing.Size(43, 30);
-            this.Minute_txt.TabIndex = 9;
-            // 
-            // Hour_txt
-            // 
-            this.Hour_txt.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.Hour_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Hour_txt.Location = new System.Drawing.Point(92, 148);
-            this.Hour_txt.Name = "Hour_txt";
-            this.Hour_txt.Size = new System.Drawing.Size(43, 30);
-            this.Hour_txt.TabIndex = 8;
-            // 
-            // Reset_btn
-            // 
-            this.Reset_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reset_btn.Location = new System.Drawing.Point(196, 73);
-            this.Reset_btn.Name = "Reset_btn";
-            this.Reset_btn.Size = new System.Drawing.Size(129, 46);
-            this.Reset_btn.TabIndex = 7;
-            this.Reset_btn.Text = "Reset";
-            this.Reset_btn.UseVisualStyleBackColor = true;
-            this.Reset_btn.Click += new System.EventHandler(this.Reset_btn_Click);
-            // 
-            // Stop_btn
-            // 
-            this.Stop_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Stop_btn.Location = new System.Drawing.Point(23, 73);
-            this.Stop_btn.Name = "Stop_btn";
-            this.Stop_btn.Size = new System.Drawing.Size(129, 46);
-            this.Stop_btn.TabIndex = 6;
-            this.Stop_btn.Text = "Stop";
-            this.Stop_btn.UseVisualStyleBackColor = true;
-            this.Stop_btn.Click += new System.EventHandler(this.Stop_btn_Click);
-            // 
-            // Start_btn
-            // 
-            this.Start_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Start_btn.Location = new System.Drawing.Point(108, 21);
-            this.Start_btn.Name = "Start_btn";
-            this.Start_btn.Size = new System.Drawing.Size(136, 37);
-            this.Start_btn.TabIndex = 5;
-            this.Start_btn.Text = "Start";
-            this.Start_btn.UseVisualStyleBackColor = true;
-            this.Start_btn.Click += new System.EventHandler(this.Start_btn_Click);
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_2);
@@ -409,8 +272,6 @@
             this.panel2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -429,24 +290,13 @@
         private System.Windows.Forms.Button Clear_btn;
         private System.Windows.Forms.Button Submit_btn;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label Second_lbl;
         private System.Windows.Forms.Label Minute_lbl;
         private System.Windows.Forms.Label Hour_lbl;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button Reset_btn;
-        private System.Windows.Forms.Button Stop_btn;
-        private System.Windows.Forms.Button Start_btn;
-        private System.Windows.Forms.TextBox Second_txt;
-        private System.Windows.Forms.TextBox Minute_txt;
-        private System.Windows.Forms.TextBox Hour_txt;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button Set_btn;
     }
 }
 

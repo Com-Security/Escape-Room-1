@@ -33,6 +33,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Nxtbtn1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.hintbtn1 = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -41,15 +42,26 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.Second_lbl = new System.Windows.Forms.Label();
+            this.Minute_lbl = new System.Windows.Forms.Label();
+            this.Hour_lbl = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Nxtbtn1
             // 
@@ -72,10 +84,26 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.Nxtbtn1);
-            this.panel1.Location = new System.Drawing.Point(56, 55);
+            this.panel1.Location = new System.Drawing.Point(54, 86);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(717, 590);
             this.panel1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.DimGray;
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(131, 21);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(429, 106);
+            this.textBox2.TabIndex = 15;
+            this.textBox2.Text = "You have received an email claiming that you have won the lottery, as long as you" +
+    " fill out the corresponding information, is an example of what type social engin" +
+    "eering attack?";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // hintbtn1
             // 
@@ -157,33 +185,82 @@
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
-            // label3
+            // panel2
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(662, 6);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 46);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "TIMER";
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.groupBox1);
+            this.panel2.Location = new System.Drawing.Point(555, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(226, 59);
+            this.panel2.TabIndex = 2;
             // 
-            // textBox2
+            // groupBox1
             // 
-            this.textBox2.BackColor = System.Drawing.Color.DimGray;
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(131, 21);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(429, 106);
-            this.textBox2.TabIndex = 15;
-            this.textBox2.Text = "You have received an email claiming that you have won the lottery, as long as you" +
-    " fill out the corresponding information, is an example of what type social engin" +
-    "eering attack?";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.Second_lbl);
+            this.groupBox1.Controls.Add(this.Minute_lbl);
+            this.groupBox1.Controls.Add(this.Hour_lbl);
+            this.groupBox1.Location = new System.Drawing.Point(3, 5);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(214, 47);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(134, 18);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(19, 25);
+            this.label9.TabIndex = 4;
+            this.label9.Text = ":";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(55, 12);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(19, 25);
+            this.label8.TabIndex = 3;
+            this.label8.Text = ":";
+            // 
+            // Second_lbl
+            // 
+            this.Second_lbl.AutoSize = true;
+            this.Second_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Second_lbl.ForeColor = System.Drawing.Color.Red;
+            this.Second_lbl.Location = new System.Drawing.Point(159, 13);
+            this.Second_lbl.Name = "Second_lbl";
+            this.Second_lbl.Size = new System.Drawing.Size(49, 32);
+            this.Second_lbl.TabIndex = 2;
+            this.Second_lbl.Text = "00";
+            // 
+            // Minute_lbl
+            // 
+            this.Minute_lbl.AutoSize = true;
+            this.Minute_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Minute_lbl.ForeColor = System.Drawing.Color.Red;
+            this.Minute_lbl.Location = new System.Drawing.Point(80, 13);
+            this.Minute_lbl.Name = "Minute_lbl";
+            this.Minute_lbl.Size = new System.Drawing.Size(49, 32);
+            this.Minute_lbl.TabIndex = 1;
+            this.Minute_lbl.Text = "00";
+            // 
+            // Hour_lbl
+            // 
+            this.Hour_lbl.AutoSize = true;
+            this.Hour_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Hour_lbl.ForeColor = System.Drawing.Color.Red;
+            this.Hour_lbl.Location = new System.Drawing.Point(6, 12);
+            this.Hour_lbl.Name = "Hour_lbl";
+            this.Hour_lbl.Size = new System.Drawing.Size(49, 32);
+            this.Hour_lbl.TabIndex = 0;
+            this.Hour_lbl.Text = "00";
             // 
             // Part1
             // 
@@ -191,8 +268,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Escape_Room.Properties.Resources.locks;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(822, 688);
-            this.Controls.Add(this.label3);
+            this.ClientSize = new System.Drawing.Size(794, 699);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "Part1";
@@ -205,8 +282,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -214,7 +293,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button Nxtbtn1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button hintbtn1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -224,5 +302,12 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label Second_lbl;
+        private System.Windows.Forms.Label Minute_lbl;
+        private System.Windows.Forms.Label Hour_lbl;
     }
 }
