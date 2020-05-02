@@ -21,5 +21,10 @@ namespace Escape_Room
         {
 
         }
+
+        private void Hintbtn1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
