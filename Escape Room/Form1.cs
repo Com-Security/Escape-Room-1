@@ -228,9 +228,5 @@ namespace Escape_Room
             }
         }
 
-        private void Question1_txt_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

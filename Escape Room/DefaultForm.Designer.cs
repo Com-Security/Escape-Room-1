@@ -65,6 +65,7 @@
             this.Description_lbl.Location = new System.Drawing.Point(334, 266);
             this.Description_lbl.Multiline = true;
             this.Description_lbl.Name = "Description_lbl";
+            this.Description_lbl.ReadOnly = true;
             this.Description_lbl.Size = new System.Drawing.Size(589, 196);
             this.Description_lbl.TabIndex = 3;
             this.Description_lbl.Text = resources.GetString("Description_lbl.Text");
