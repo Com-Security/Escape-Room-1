@@ -143,5 +143,8 @@
   <ItemGroup>
     <None Include="Resources\sharing2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bulbicon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
