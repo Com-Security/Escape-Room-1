@@ -17,36 +17,9 @@ namespace Escape_Room
             InitializeComponent();
         }
 
-        private void Button3_Click(object sender, EventArgs e)
+        private void BtnEnterCode1_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            panel2.Visible = false;
-        }
 
-        private void Button2_Click(object sender, EventArgs e)
-        {
-           
-            panel2.Visible = true;
-            panel1.Visible = false;
-
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            panel1.Visible = true;
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            panel1.Visible = false;
-            panel2.Visible = false;
-        }
-
-        private void Button5_Click(object sender, EventArgs e)
-        {
-            panel1.Visible = true;
-            panel2.Visible = false;
-           
         }
     }
 }
