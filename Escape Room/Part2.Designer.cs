@@ -35,6 +35,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnEnterCode1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.hintbtn1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -54,6 +55,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(444, 156);
             this.pictureBox2.Name = "pictureBox2";
@@ -101,11 +103,24 @@
             this.textBox1.Size = new System.Drawing.Size(471, 85);
             this.textBox1.TabIndex = 5;
             // 
+            // hintbtn1
+            // 
+            this.hintbtn1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.hintbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hintbtn1.Location = new System.Drawing.Point(54, 725);
+            this.hintbtn1.Name = "hintbtn1";
+            this.hintbtn1.Size = new System.Drawing.Size(70, 68);
+            this.hintbtn1.TabIndex = 15;
+            this.hintbtn1.Text = "Hint";
+            this.hintbtn1.UseVisualStyleBackColor = false;
+            this.hintbtn1.Click += new System.EventHandler(this.Hintbtn1_Click);
+            // 
             // Part2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(862, 866);
+            this.ClientSize = new System.Drawing.Size(858, 886);
+            this.Controls.Add(this.hintbtn1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnEnterCode1);
             this.Controls.Add(this.pictureBox4);
@@ -131,5 +146,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnEnterCode1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button hintbtn1;
     }
 }
