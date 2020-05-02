@@ -12,7 +12,9 @@ namespace Escape_Room
 {
     public partial class Part1 : Form
     {
-        //List<Panel> ListPanel = new List<Panel>();
+        public int seconds;
+        public int minutes;
+        public int hour;
 
         public Part1()
         {
@@ -21,8 +23,16 @@ namespace Escape_Room
 
         private void Nxtbtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Loading Second Page");
-            panel1.Hide();
+            if (textBox1.Text == "Phishing" || textBox1.Text == "phisphing" || textBox1.Text == "PHISHHING")
+            {
+                MessageBox.Show("Correct");
+            }
+            else
+            {
+                MessageBox.Show("Incorrect");
+            }
+            //MessageBox.Show("Loading Second Page");
+            //panel1.Hide();
            // panel2.Show();
         }
 
@@ -37,6 +47,66 @@ namespace Escape_Room
             MessageBox.Show("HINT HERE");
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            seconds = int.Parse(Second_lbl.Text);
+            minutes = int.Parse(Minute_lbl.Text);
+            hour = int.Parse(Hour_lbl.Text);
+
+            timer1.Interval = 1000;
+            if (Hour_lbl.Text == "")
+                Hour_lbl.Text = "0";
+            if (Minute_lbl.Text == "")
+                Minute_lbl.Text = "0";
+            if (Second_lbl.Text == "")
+                Second_lbl.Text = "0";
+            if (Hour_lbl.Text == "00")
+                Hour_lbl.Text = "0";
+            if (Minute_lbl.Text == "00")
+                Minute_lbl.Text = "0";
+            if (Second_lbl.Text == "00")
+                Second_lbl.Text = "0";
+            if (seconds > 0)
+            {
+                seconds = seconds - 1;
+                Second_lbl.Text = seconds.ToString();
+            }
+            if (minutes > 0)
+            {
+                if (Second_lbl.Text == "0")
+                {
+                    minutes = minutes - 1;
+                    Minute_lbl.Text = minutes.ToString();
+                    Second_lbl.Text = "59";
+                }
+            }
+
+            if (hour > 0)
+            {
+                if (Minute_lbl.Text == "0")
+                {
+                    if (Second_lbl.Text == "0")
+                    {
+                        hour = hour - 1;
+                        Hour_lbl.Text = hour.ToString();
+                        Minute_lbl.Text = "59";
+                        Second_lbl.Text = "59";
+                    }
+                }
+            }
+
+            if (Second_lbl.Text == "0")
+            {
+                if (Minute_lbl.Text == "0")
+                {
+                    if (Hour_lbl.Text == "0")
+                    {
+                        timer1.Enabled = false;
+                        MessageBox.Show("Ran out of time");
+                    }
+                }
+            }
+        }
     }
 
 }
