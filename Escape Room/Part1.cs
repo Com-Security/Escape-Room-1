@@ -203,7 +203,7 @@ namespace Escape_Room
             }
             else
             {
-                MessageBox.Show("Q2 Incorrect answer");
+                MessageBox.Show("Q2 Incorrect answer Try again");
             }
         }
 
