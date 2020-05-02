@@ -116,5 +116,20 @@
   <ItemGroup>
     <None Include="Resources\locks.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phishing1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fishicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hookicon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boaticon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phishing2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
