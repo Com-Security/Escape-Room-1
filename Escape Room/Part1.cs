@@ -26,7 +26,9 @@ namespace Escape_Room
             if (textBox1.Text == "Phishing" || textBox1.Text == "phishing" || textBox1.Text == "PHISHHING")
             {
                 MessageBox.Show("Correct");
-
+                MessageBox.Show("Loading Second Page");
+                // panel3.Show();
+                panel1.Hide();
             }
             else
             {
@@ -42,15 +44,10 @@ namespace Escape_Room
 
                     seconds = seconds - seconds;
                     Second_lbl.Text = seconds.ToString();
-                    if (seconds == 0)
-                    {
-                        //MessageBox.Show("Ran out of time please try again.");
-                    }
+                    
                 }
             }
-            //MessageBox.Show("Loading Second Page");
-            //panel1.Hide();
-           // panel2.Show();
+            
         }
 
         private void Part1_Load(object sender, EventArgs e)
@@ -75,7 +72,7 @@ namespace Escape_Room
                 //START COUNT DOWN
                 timer1.Enabled = true;
             
-            // panel2.BackColor = Color.FromArgb(100, 100, 100, 100);
+            //panel3.BackColor = Color.FromArgb(100, 100, 100, 100);
         }
 
         private void hintbtn1_Click(object sender, EventArgs e)
