@@ -23,12 +23,11 @@ namespace Escape_Room
 
         private void Nxtbtn_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Phishing" || textBox1.Text == "phishing" || textBox1.Text == "PHISHHING")
+            if (textBox1.Text == "Phishing" || textBox1.Text == "phishing" || textBox1.Text == "PHISHING")
             {
                 MessageBox.Show("Correct");
                 MessageBox.Show("Loading Second Page");
-                // panel3.Show();
-                panel1.Hide();
+                panel3.Show();
             }
             else
             {
@@ -171,8 +170,29 @@ namespace Escape_Room
 
         private void Nxtbtn2_Click(object sender, EventArgs e)
         {
-            panel3.Hide();
-            panel1.Show();
+            
+            if (textBox4.Text == "Data Sharing" || textBox4.Text == "data sharing" || textBox4.Text == "DATA SHARING")
+            {
+                MessageBox.Show("Correct");
+                MessageBox.Show("Loading Level 3");
+                Part3 obj1 = new Part3();
+                obj1.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect");
+
+                seconds = seconds - 10;
+                Second_lbl.Text = seconds.ToString();
+
+                if (seconds <= 0)
+                {
+                    seconds = 0;
+                    Second_lbl.Text = seconds.ToString();
+
+                }
+            }
         }
     }
 

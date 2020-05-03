@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Escape_Room
 {
-    public partial class DefaultForm : Form
+    public partial class GreetingsForm : Form
     {
-        public DefaultForm()
+        public GreetingsForm()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace Escape_Room
 
         private void Begin_lbl_Click(object sender, EventArgs e)
         {
-            Form1 obj1 = new Form1();
+            Part1 obj1 = new Part1();
             obj1.Show();
             this.Hide();
 

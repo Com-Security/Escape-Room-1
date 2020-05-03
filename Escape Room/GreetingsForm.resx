@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Description_lbl.Text" xml:space="preserve">
-    <value>Hello and welcome to our escape room. This game consists of THREE (3) SECTIONS aimed at educating you guys about cyber awareness. In order for you to get to the next section you must first correctly answer each question with the clues given. GOOD LUCK! :)</value>
+    <value>Hello and welcome to our escape room. This game consists of FOUR (4) SECTIONS aimed at educating you guys about cyber awareness. In order for you to get to the next section you must first correctly answer each question with the clues given. GOOD LUCK! :)</value>
   </data>
 </root>
