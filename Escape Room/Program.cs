@@ -19,7 +19,7 @@ namespace Escape_Room
             //Application.Run(new GreetingsForm());
             //Application.Run(new Form1());
             //Application.Run(new Part1());
-            Application.Run(new Part2());
+            Application.Run(new Part4());
 
         }
     }
