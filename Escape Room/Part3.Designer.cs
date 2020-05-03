@@ -261,7 +261,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Escape_Room.Properties.Resources.locks;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(859, 886);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
