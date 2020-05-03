@@ -148,5 +148,47 @@ namespace Escape_Room
                 }
             }
         }
+
+        private void HintBtn2_Click(object sender, EventArgs e)
+        {
+            hintPanel2.Visible = true;
+        }
+
+        private void BtnEnterCode2_Click(object sender, EventArgs e)
+        {
+            string code = answerBox2.Text.ToUpper();
+
+            if (code == "UNLOCKED")
+            {
+                MessageBox.Show("You're Free !");
+                timer1.Enabled = false;
+            }
+            else
+            {
+                //PENALIZE
+                MessageBox.Show("ACCESS DENIED !! - TIME IS RUNNING OUT");
+
+                minutes = minutes - 1;
+                Minute_lbl.Text = minutes.ToString();
+
+                if (minutes < 0)
+                {
+                    int temp = 0;
+                    Minute_lbl.Text = temp.ToString();
+
+                    seconds = seconds - seconds;
+                    Second_lbl.Text = seconds.ToString();
+                    if (seconds == 0)
+                    {
+                        //MessageBox.Show("Ran out of time please try again.");
+                    }
+                }
+            }
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            hintPanel2.Visible = false;
+        }
     }
 }
