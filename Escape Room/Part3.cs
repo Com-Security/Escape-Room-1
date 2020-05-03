@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace Escape_Room
 {
-    public partial class Form1 : Form
+    public partial class Part3 : Form
     {
         public int seconds;
         public int minutes;
         public int hour;
 
-        public Form1()
+        public Part3()
         {
             InitializeComponent();
 

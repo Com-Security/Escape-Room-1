@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DefaultForm.cs">
+    <Compile Include="GreetingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DefaultForm.Designer.cs">
-      <DependentUpon>DefaultForm.cs</DependentUpon>
+    <Compile Include="GreetingsForm.Designer.cs">
+      <DependentUpon>GreetingsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Part3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Part3.Designer.cs">
+      <DependentUpon>Part3.cs</DependentUpon>
     </Compile>
     <Compile Include="Part1.cs">
       <SubType>Form</SubType>
@@ -72,11 +72,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DefaultForm.resx">
-      <DependentUpon>DefaultForm.cs</DependentUpon>
+    <EmbeddedResource Include="GreetingsForm.resx">
+      <DependentUpon>GreetingsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Part3.resx">
+      <DependentUpon>Part3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Part1.resx">
       <DependentUpon>Part1.cs</DependentUpon>

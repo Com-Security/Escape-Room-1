@@ -49,16 +49,16 @@
             this.Second_lbl = new System.Windows.Forms.Label();
             this.Minute_lbl = new System.Windows.Forms.Label();
             this.Hour_lbl = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.hintbtn2 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Nxtbtn2 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.hintbtn2 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -67,12 +67,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -84,7 +84,7 @@
             this.Nxtbtn1.BackColor = System.Drawing.Color.DimGray;
             this.Nxtbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nxtbtn1.ForeColor = System.Drawing.Color.White;
-            this.Nxtbtn1.Location = new System.Drawing.Point(541, 526);
+            this.Nxtbtn1.Location = new System.Drawing.Point(587, 576);
             this.Nxtbtn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nxtbtn1.Name = "Nxtbtn1";
             this.Nxtbtn1.Size = new System.Drawing.Size(128, 44);
@@ -96,6 +96,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.hintbtn1);
             this.panel1.Controls.Add(this.textBox1);
@@ -104,7 +105,7 @@
             this.panel1.Location = new System.Drawing.Point(53, 86);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(717, 590);
+            this.panel1.Size = new System.Drawing.Size(727, 642);
             this.panel1.TabIndex = 0;
             // 
             // textBox2
@@ -112,7 +113,7 @@
             this.textBox2.BackColor = System.Drawing.Color.DimGray;
             this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(131, 21);
+            this.textBox2.Location = new System.Drawing.Point(122, 28);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -129,7 +130,7 @@
             this.hintbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hintbtn1.ImageIndex = 0;
             this.hintbtn1.ImageList = this.imageList1;
-            this.hintbtn1.Location = new System.Drawing.Point(19, 526);
+            this.hintbtn1.Location = new System.Drawing.Point(20, 574);
             this.hintbtn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hintbtn1.Name = "hintbtn1";
             this.hintbtn1.Size = new System.Drawing.Size(53, 44);
@@ -145,10 +146,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(187, 450);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(187, 496);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(295, 22);
+            this.textBox1.Size = new System.Drawing.Size(295, 49);
             this.textBox1.TabIndex = 13;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -160,7 +162,7 @@
             this.groupBox2.Controls.Add(this.pictureBox4);
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox2.Location = new System.Drawing.Point(143, 133);
+            this.groupBox2.Location = new System.Drawing.Point(131, 172);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -292,59 +294,19 @@
             this.Hour_lbl.TabIndex = 0;
             this.Hour_lbl.Text = "00";
             // 
-            // panel3
+            // Nxtbtn2
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel3.Controls.Add(this.textBox3);
-            this.panel3.Controls.Add(this.hintbtn2);
-            this.panel3.Controls.Add(this.textBox4);
-            this.panel3.Controls.Add(this.groupBox3);
-            this.panel3.Controls.Add(this.Nxtbtn2);
-            this.panel3.Location = new System.Drawing.Point(53, 86);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(717, 590);
-            this.panel3.TabIndex = 16;
-            this.panel3.Visible = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.DimGray;
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(131, 21);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(429, 106);
-            this.textBox3.TabIndex = 15;
-            this.textBox3.Text = "You have received an email claiming that you have won the lottery, as long as you" +
-    " fill out the corresponding information, is an example of what type social engin" +
-    "eering attack?";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // hintbtn2
-            // 
-            this.hintbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hintbtn2.ImageIndex = 0;
-            this.hintbtn2.ImageList = this.imageList1;
-            this.hintbtn2.Location = new System.Drawing.Point(19, 526);
-            this.hintbtn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hintbtn2.Name = "hintbtn2";
-            this.hintbtn2.Size = new System.Drawing.Size(53, 44);
-            this.hintbtn2.TabIndex = 14;
-            this.hintbtn2.UseVisualStyleBackColor = true;
-            this.hintbtn2.Click += new System.EventHandler(this.hintbtn2_Click);
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(187, 450);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(295, 22);
-            this.textBox4.TabIndex = 13;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Nxtbtn2.BackColor = System.Drawing.Color.DimGray;
+            this.Nxtbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nxtbtn2.ForeColor = System.Drawing.Color.White;
+            this.Nxtbtn2.Location = new System.Drawing.Point(587, 576);
+            this.Nxtbtn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Nxtbtn2.Name = "Nxtbtn2";
+            this.Nxtbtn2.Size = new System.Drawing.Size(128, 44);
+            this.Nxtbtn2.TabIndex = 4;
+            this.Nxtbtn2.Text = "Next >>";
+            this.Nxtbtn2.UseVisualStyleBackColor = false;
+            this.Nxtbtn2.Click += new System.EventHandler(this.Nxtbtn2_Click);
             // 
             // groupBox3
             // 
@@ -354,46 +316,13 @@
             this.groupBox3.Controls.Add(this.pictureBox7);
             this.groupBox3.Controls.Add(this.pictureBox8);
             this.groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox3.Location = new System.Drawing.Point(143, 133);
+            this.groupBox3.Location = new System.Drawing.Point(154, 172);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Size = new System.Drawing.Size(396, 295);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Escape_Room.Properties.Resources.Data1;
-            this.pictureBox5.Location = new System.Drawing.Point(24, 23);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(177, 117);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 8;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Escape_Room.Properties.Resources.sharing2;
-            this.pictureBox6.Location = new System.Drawing.Point(23, 146);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(179, 140);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Escape_Room.Properties.Resources.Sharing1;
-            this.pictureBox7.Location = new System.Drawing.Point(208, 144);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(172, 140);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 11;
-            this.pictureBox7.TabStop = false;
             // 
             // pictureBox8
             // 
@@ -406,19 +335,91 @@
             this.pictureBox8.TabIndex = 9;
             this.pictureBox8.TabStop = false;
             // 
-            // Nxtbtn2
+            // pictureBox7
             // 
-            this.Nxtbtn2.BackColor = System.Drawing.Color.DimGray;
-            this.Nxtbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nxtbtn2.ForeColor = System.Drawing.Color.White;
-            this.Nxtbtn2.Location = new System.Drawing.Point(541, 526);
-            this.Nxtbtn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Nxtbtn2.Name = "Nxtbtn2";
-            this.Nxtbtn2.Size = new System.Drawing.Size(128, 44);
-            this.Nxtbtn2.TabIndex = 4;
-            this.Nxtbtn2.Text = "Next >>";
-            this.Nxtbtn2.UseVisualStyleBackColor = false;
-            this.Nxtbtn2.Click += new System.EventHandler(this.Nxtbtn2_Click);
+            this.pictureBox7.Image = global::Escape_Room.Properties.Resources.Sharing1;
+            this.pictureBox7.Location = new System.Drawing.Point(208, 144);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(172, 140);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 11;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Escape_Room.Properties.Resources.sharing2;
+            this.pictureBox6.Location = new System.Drawing.Point(23, 146);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(179, 140);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 10;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Escape_Room.Properties.Resources.Data1;
+            this.pictureBox5.Location = new System.Drawing.Point(24, 23);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(177, 117);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 8;
+            this.pictureBox5.TabStop = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(187, 496);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(342, 49);
+            this.textBox4.TabIndex = 13;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // hintbtn2
+            // 
+            this.hintbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hintbtn2.ImageIndex = 0;
+            this.hintbtn2.ImageList = this.imageList1;
+            this.hintbtn2.Location = new System.Drawing.Point(20, 574);
+            this.hintbtn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hintbtn2.Name = "hintbtn2";
+            this.hintbtn2.Size = new System.Drawing.Size(53, 44);
+            this.hintbtn2.TabIndex = 14;
+            this.hintbtn2.UseVisualStyleBackColor = true;
+            this.hintbtn2.Click += new System.EventHandler(this.hintbtn2_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.DimGray;
+            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.White;
+            this.textBox3.Location = new System.Drawing.Point(142, 42);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(429, 106);
+            this.textBox3.TabIndex = 15;
+            this.textBox3.Text = "RIDDLE ME THIS RIDDLE ME THAT";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel3.Controls.Add(this.textBox3);
+            this.panel3.Controls.Add(this.hintbtn2);
+            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.groupBox3);
+            this.panel3.Controls.Add(this.Nxtbtn2);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(727, 642);
+            this.panel3.TabIndex = 16;
+            this.panel3.Visible = false;
             // 
             // Part1
             // 
@@ -426,8 +427,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Escape_Room.Properties.Resources.locks;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(795, 699);
-            this.Controls.Add(this.panel3);
+            this.ClientSize = new System.Drawing.Size(859, 886);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
@@ -445,13 +445,13 @@
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }

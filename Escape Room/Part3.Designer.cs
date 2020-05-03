@@ -1,6 +1,6 @@
 ﻿namespace Escape_Room
 {
-    partial class Form1
+    partial class Part3
     {
         /// <summary>
         /// Required designer variable.
@@ -67,7 +67,7 @@
             this.panel1.Controls.Add(this.Question3_lbl);
             this.panel1.Controls.Add(this.Question2_lbl);
             this.panel1.Controls.Add(this.Question1_lbl);
-            this.panel1.Location = new System.Drawing.Point(41, 175);
+            this.panel1.Location = new System.Drawing.Point(189, 217);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(446, 444);
             this.panel1.TabIndex = 0;
@@ -179,7 +179,7 @@
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.groupBox2);
-            this.panel2.Location = new System.Drawing.Point(889, 58);
+            this.panel2.Location = new System.Drawing.Point(296, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(339, 124);
             this.panel2.TabIndex = 1;
@@ -256,15 +256,17 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_2);
             // 
-            // Form1
+            // Part3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Escape_Room.Properties.Resources.locks;
-            this.ClientSize = new System.Drawing.Size(1303, 701);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(859, 886);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.DoubleBuffered = true;
+            this.Name = "Part3";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
