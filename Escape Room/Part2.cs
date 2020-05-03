@@ -21,7 +21,7 @@ namespace Escape_Room
             InitializeComponent();
         }
 
-        private void BtnEnterCode1_Click(object sender, EventArgs e)
+        private void BtnEnterCode1_Click_1(object sender, EventArgs e)
         {
             string code = answerBox1.Text.ToUpper();
 
@@ -29,6 +29,7 @@ namespace Escape_Room
             {
                 MessageBox.Show("USER AUNTHENTICATED");
                 panel3.Visible = true;
+                panel1.Visible = false;             
             }
             else
             {
@@ -54,7 +55,7 @@ namespace Escape_Room
         }
 
         //Hints
-        private void Hintbtn1_Click(object sender, EventArgs e)
+        private void Hintbtn1_Click_1(object sender, EventArgs e)
         {
             hintPanel1.Visible = true;
         }
@@ -66,6 +67,7 @@ namespace Escape_Room
 
         private void Part2_Load(object sender, EventArgs e)
         {
+            panel1.Visible = true;
             //DECLARE & INITIALIZE LABEL VARIABLES
             seconds = int.Parse(Second_lbl.Text);
             minutes = int.Parse(Minute_lbl.Text);
@@ -193,6 +195,7 @@ namespace Escape_Room
         {
             hintPanel2.Visible = false;
         }
+
     }
 
 }
