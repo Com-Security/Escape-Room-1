@@ -96,7 +96,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.hintbtn1);
             this.panel1.Controls.Add(this.textBox1);
@@ -116,7 +115,7 @@
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Controls.Add(this.groupBox3);
             this.panel3.Controls.Add(this.Nxtbtn2);
-            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Location = new System.Drawing.Point(53, 84);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(727, 642);
@@ -126,16 +125,16 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.DimGray;
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(142, 42);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(429, 106);
+            this.textBox3.Size = new System.Drawing.Size(439, 90);
             this.textBox3.TabIndex = 15;
-            this.textBox3.Text = "RIDDLE ME THIS RIDDLE ME THAT";
+            this.textBox3.Text = "Resources Available to all ";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // hintbtn2
@@ -244,7 +243,7 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.DimGray;
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(122, 28);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -254,8 +253,7 @@
             this.textBox2.Size = new System.Drawing.Size(429, 106);
             this.textBox2.TabIndex = 15;
             this.textBox2.Text = "You have received an email claiming that you have won the lottery, as long as you" +
-    " fill out the corresponding information, is an example of what type social engin" +
-    "eering attack?";
+    " fill out the corresponding information.";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // hintbtn1
@@ -427,6 +425,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Escape_Room.Properties.Resources.locks;
             this.ClientSize = new System.Drawing.Size(859, 886);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
