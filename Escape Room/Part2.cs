@@ -28,6 +28,7 @@ namespace Escape_Room
             if (code == "AUTHENTICATION")
             {
                 MessageBox.Show("USER AUNTHENTICATED");
+                panel3.Visible = true;
             }
             else
             {
@@ -72,7 +73,7 @@ namespace Escape_Room
 
             //INITIALIZE VARIABLES
             seconds = 0;
-            minutes = 10;
+            minutes = 2;
             hour = 0;
 
             //PASS VALUES TO LABELS
@@ -82,7 +83,6 @@ namespace Escape_Room
 
             //START COUNT DOWN
             timer1.Enabled = true;
-
         }
 
  
@@ -148,5 +148,51 @@ namespace Escape_Room
                 }
             }
         }
+
+        private void BtnEnterCode2_Click(object sender, EventArgs e)
+        {
+
+            string username = answerBox2.Text.ToUpper();
+            string pass = answerBox4.Text;
+
+            if (username == "ADMIN" && pass=="admin")
+            {
+                MessageBox.Show(" WELCOME ADMIN MANAGER ! ");
+                timer1.Enabled = false;
+            }
+            else
+            {
+                //PENALIZE
+                MessageBox.Show("ACCESS DENIED !! - TIME IS RUNNING OUT");
+
+                minutes = minutes - 1;
+                Minute_lbl.Text = minutes.ToString();
+
+                if (minutes < 0)
+                {
+                    int temp = 0;
+                    Minute_lbl.Text = temp.ToString();
+
+                    seconds = seconds - seconds;
+                    Second_lbl.Text = seconds.ToString();
+                    if (seconds == 0)
+                    {
+                        //MessageBox.Show("Ran out of time please try again.");
+                    }
+                }
+            }
+        }
+
+
+        private void Hintbtn2_Click(object sender, EventArgs e)
+        {
+            hintPanel2.Visible = true;
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            hintPanel2.Visible = false;
+        }
     }
+
 }
