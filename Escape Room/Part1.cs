@@ -34,15 +34,12 @@ namespace Escape_Room
             {
                 MessageBox.Show("Incorrect");
 
-                minutes = minutes - 1;
-                Minute_lbl.Text = minutes.ToString();
+                seconds = seconds - 10;
+                Second_lbl.Text = seconds.ToString();
 
-                if (minutes < 0)
+                if (seconds <= 0)
                 {
-                    int temp = 0;
-                    Minute_lbl.Text = temp.ToString();
-
-                    seconds = seconds - seconds;
+                    seconds = 0;
                     Second_lbl.Text = seconds.ToString();
                     
                 }
@@ -61,7 +58,7 @@ namespace Escape_Room
 
                 //INITIALIZE VARIABLES
                 seconds = 0;
-                minutes = 10;
+                minutes = 1;
                 hour = 0;
 
                 //PASS VALUES TO LABELS
@@ -72,12 +69,25 @@ namespace Escape_Room
                 //START COUNT DOWN
                 timer1.Enabled = true;
             
-            //panel3.BackColor = Color.FromArgb(100, 100, 100, 100);
+            panel3.BackColor = Color.FromArgb(100, 100, 100, 100);
         }
 
         private void hintbtn1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("HINT HERE");
+            
+            if (seconds > 0 )
+            {
+                seconds = seconds - 10;
+                Second_lbl.Text = seconds.ToString();
+
+            }
+            if (seconds <= 0)
+            {
+                seconds = 0;
+                Second_lbl.Text = seconds.ToString();
+            }
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -140,6 +150,29 @@ namespace Escape_Room
                     }
                 }
             }
+        }
+
+        private void hintbtn2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("HINT HERE");
+
+            if (seconds > 0)
+            {
+                seconds = seconds - 10;
+                Second_lbl.Text = seconds.ToString();
+
+            }
+            if (seconds <= 0)
+            {
+                seconds = 0;
+                Second_lbl.Text = seconds.ToString();
+            }
+        }
+
+        private void Nxtbtn2_Click(object sender, EventArgs e)
+        {
+            panel3.Hide();
+            panel1.Show();
         }
     }
 
