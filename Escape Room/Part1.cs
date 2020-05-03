@@ -26,7 +26,7 @@ namespace Escape_Room
             if (textBox1.Text == "Phishing" || textBox1.Text == "phishing" || textBox1.Text == "PHISHING")
             {
                 MessageBox.Show("Correct");
-                MessageBox.Show("Loading Second Page");
+                //MessageBox.Show("Loading Second Page");
                 panel3.Show();
             }
             else
@@ -57,7 +57,7 @@ namespace Escape_Room
 
                 //INITIALIZE VARIABLES
                 seconds = 0;
-                minutes = 1;
+                minutes = 2;
                 hour = 0;
 
                 //PASS VALUES TO LABELS
@@ -73,7 +73,9 @@ namespace Escape_Room
 
         private void hintbtn1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("HINT HERE");
+            MessageBox.Show("Be ware of hyperlinks and attachments you open from emails - " +
+                            "they may direct you to false websites where you're asked to " +
+                            "input sensitive information");
             
             if (seconds > 0 )
             {
@@ -153,8 +155,11 @@ namespace Escape_Room
 
         private void hintbtn2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("HINT HERE");
-
+            MessageBox.Show("Digits and binary are an example of me. " +
+                            "Traveling from person to person without moving an inch. " +
+                            "A tad backward, but all part of a plan. " +
+                            "Tada! Unscramble to discover with glee. ");
+            
             if (seconds > 0)
             {
                 seconds = seconds - 10;
