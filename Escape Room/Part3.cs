@@ -87,7 +87,7 @@ namespace Escape_Room
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            panel1.BackColor = Color.FromArgb(100, 100, 100, 100);
+            //panel1.BackColor = Color.FromArgb(100, 100, 100, 100);
 
             //DECLARE & INITIALIZE LABEL VARIABLES
             seconds = int.Parse(Second_lbl.Text);
@@ -107,6 +107,22 @@ namespace Escape_Room
             //START COUNT DOWN
             timer1.Enabled = true;
         }
-        
+
+        private void hintbtn2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Art of manipulating people so they give up confidential information.");
+
+            if (seconds > 0)
+            {
+                seconds = seconds - 20;
+                Second_lbl.Text = seconds.ToString();
+
+            }
+            if (seconds <= 0)
+            {
+                seconds = 0;
+                Second_lbl.Text = seconds.ToString();
+            }
+        }
     }
 }

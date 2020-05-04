@@ -47,7 +47,7 @@ namespace Escape_Room
 
         private void Part1_Load(object sender, EventArgs e)
         {
-            panel1.BackColor = Color.FromArgb(100, 100, 100, 100);
+            //panel1.BackColor = Color.FromArgb(100, 100, 100, 100);
             
                 //DECLARE & INITIALIZE LABEL VARIABLES
                 seconds = int.Parse(Second_lbl.Text);
@@ -67,7 +67,7 @@ namespace Escape_Room
                 //START COUNT DOWN
                 timer1.Enabled = true;
             
-            panel3.BackColor = Color.FromArgb(100, 100, 100, 100);
+            //panel3.BackColor = Color.FromArgb(100, 100, 100, 100);
         }
 
         private void hintbtn1_Click(object sender, EventArgs e)

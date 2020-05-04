@@ -113,6 +113,26 @@ namespace Escape_Room.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap engineering1 {
+            get {
+                object obj = ResourceManager.GetObject("engineering1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap engineering2 {
+            get {
+                object obj = ResourceManager.GetObject("engineering2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fishicon {
             get {
                 object obj = ResourceManager.GetObject("fishicon", resourceCulture);
@@ -196,6 +216,26 @@ namespace Escape_Room.Properties {
         internal static System.Drawing.Bitmap social_engineering_1_1024x617 {
             get {
                 object obj = ResourceManager.GetObject("social_engineering-1-1024x617", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap social1 {
+            get {
+                object obj = ResourceManager.GetObject("social1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap social2 {
+            get {
+                object obj = ResourceManager.GetObject("social2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

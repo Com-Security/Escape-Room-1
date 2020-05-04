@@ -41,6 +41,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.hintbtn2 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -48,7 +49,6 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Nxtbtn2 = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -145,7 +145,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.hintbtn2);
             this.panel1.Controls.Add(this.textBox4);
@@ -173,6 +173,7 @@
             // 
             // hintbtn2
             // 
+            this.hintbtn2.BackColor = System.Drawing.Color.White;
             this.hintbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hintbtn2.ImageIndex = 0;
             this.hintbtn2.ImageList = this.imageList1;
@@ -181,7 +182,14 @@
             this.hintbtn2.Name = "hintbtn2";
             this.hintbtn2.Size = new System.Drawing.Size(53, 44);
             this.hintbtn2.TabIndex = 14;
-            this.hintbtn2.UseVisualStyleBackColor = true;
+            this.hintbtn2.UseVisualStyleBackColor = false;
+            this.hintbtn2.Click += new System.EventHandler(this.hintbtn2_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "bulbicon.png");
             // 
             // textBox4
             // 
@@ -211,40 +219,44 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::Escape_Room.Properties.Resources.social1;
             this.pictureBox5.Location = new System.Drawing.Point(6, 9);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(211, 131);
+            this.pictureBox5.Size = new System.Drawing.Size(211, 143);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(7, 144);
+            this.pictureBox6.Image = global::Escape_Room.Properties.Resources.engineering1;
+            this.pictureBox6.Location = new System.Drawing.Point(7, 156);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(206, 160);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.Size = new System.Drawing.Size(206, 148);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(219, 144);
+            this.pictureBox7.Image = global::Escape_Room.Properties.Resources.engineering2;
+            this.pictureBox7.Location = new System.Drawing.Point(219, 156);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(221, 160);
+            this.pictureBox7.Size = new System.Drawing.Size(221, 148);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::Escape_Room.Properties.Resources.social2;
             this.pictureBox8.Location = new System.Drawing.Point(219, 9);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(221, 131);
+            this.pictureBox8.Size = new System.Drawing.Size(221, 143);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 9;
             this.pictureBox8.TabStop = false;
@@ -261,12 +273,6 @@
             this.Nxtbtn2.TabIndex = 4;
             this.Nxtbtn2.Text = "Next >>";
             this.Nxtbtn2.UseVisualStyleBackColor = false;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "bulbicon.png");
             // 
             // Part3
             // 
