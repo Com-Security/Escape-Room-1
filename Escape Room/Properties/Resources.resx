@@ -121,17 +121,47 @@
   <data name="fishicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fishicon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dumpster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dumpster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="social1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\social1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sharing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharing2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Data1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Data1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="social_engineering-1-1024x617" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\social_engineering-1-1024x617.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="locks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\locks1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phishing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phishing2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineering1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineering1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PadLock-icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PadLock-icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="engineering2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\engineering2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="social1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\social1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boaticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boaticon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="social-engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\social-engineering.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diving2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diving2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="locks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\locks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="diving1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diving1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,49 +169,40 @@
   <data name="hookicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hookicon1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="social2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\social2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="locks3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\locks3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dumpster1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumpster1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dumpster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumpster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sharing1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sharing1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PadLock-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PadLock-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Data11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Data1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Data2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Data2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="social_engineering-1-1024x617" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\social_engineering-1-1024x617.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="engineering1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\engineering1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="locks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\locks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="locks2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\locks2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="phishing1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phishing1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sharing1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sharing1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PadLock-icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PadLock-icon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="social-engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\social-engineering.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boaticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boaticon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="social2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\social2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phishing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phishing2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dumpster1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dumpster1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sharing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sharing2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="diving2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\diving2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PadLock-icon4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PadLock-icon4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

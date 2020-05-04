@@ -21,5 +21,15 @@ namespace Escape_Room
         {
             Application.Exit();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.FromArgb(0, 0, 0, 0);
+        }
+
+        private void head1_lbl_Click(object sender, EventArgs e)
+        {
+            head1_lbl.BackColor = Color.FromArgb(0, 0, 0, 0);
+        }
     }
 }
