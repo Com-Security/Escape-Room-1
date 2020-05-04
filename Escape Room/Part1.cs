@@ -23,7 +23,8 @@ namespace Escape_Room
 
         private void Nxtbtn_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Phishing" || textBox1.Text == "phishing" || textBox1.Text == "PHISHING")
+            String answer = textBox1.Text.ToUpper();
+            if (answer == "PHISHING")
             {
                 MessageBox.Show("Correct");
                 panel3.Show();
@@ -174,8 +175,8 @@ namespace Escape_Room
 
         private void Nxtbtn2_Click(object sender, EventArgs e)
         {
-            
-            if (textBox4.Text == "Data Sharing" || textBox4.Text == "data sharing" || textBox4.Text == "DATA SHARING")
+            String answer2 = textBox4.Text.ToUpper();
+            if (answer2 == "DATA SHARING")
             {
                 MessageBox.Show("Correct");
                 MessageBox.Show("Loading Level 2");
