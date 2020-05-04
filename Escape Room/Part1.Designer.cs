@@ -230,7 +230,7 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.DimGray;
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(142, 42);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

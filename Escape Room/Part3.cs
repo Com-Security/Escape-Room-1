@@ -124,5 +124,72 @@ namespace Escape_Room
                 Second_lbl.Text = seconds.ToString();
             }
         }
+
+        private void Nxtbtn1_Click_1(object sender, EventArgs e)
+        {
+            if (textBox5.Text == "Social Engineering" || textBox5.Text == "social engineering"
+                || textBox5.Text == "SOCIAL ENGINEERING")
+            {
+                MessageBox.Show("Correct");
+                panel6.Show();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect");
+
+                seconds = seconds - 20;
+                Second_lbl.Text = seconds.ToString();
+
+                if (seconds <= 0)
+                {
+                    seconds = 0;
+                    Second_lbl.Text = seconds.ToString();
+
+                }
+            }
+        }
+
+        private void hintbutton1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hint here");
+
+            if (seconds > 0)
+            {
+                seconds = seconds - 20;
+                Second_lbl.Text = seconds.ToString();
+
+            }
+            if (seconds <= 0)
+            {
+                seconds = 0;
+                Second_lbl.Text = seconds.ToString();
+            }
+        }
+
+        private void Nextbutton2_Click(object sender, EventArgs e)
+        {
+            if (textBox6.Text == "" || textBox6.Text == ""
+                || textBox6.Text == "")
+            {
+                MessageBox.Show("Correct");
+                Part4 obj3 = new Part4();
+                obj3.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect");
+
+                seconds = seconds - 20;
+                Second_lbl.Text = seconds.ToString();
+
+                if (seconds <= 0)
+                {
+                    seconds = 0;
+                    Second_lbl.Text = seconds.ToString();
+
+                }
+            }
+        }
     }
 }
