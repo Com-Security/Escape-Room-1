@@ -78,6 +78,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheEND.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TheEND.Designer.cs">
+      <DependentUpon>TheEND.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="GreetingsForm.resx">
       <DependentUpon>GreetingsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +109,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TheEND.resx">
+      <DependentUpon>TheEND.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,6 +163,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bulbicon.png" />
+    <None Include="Resources\diving2.jpg" />
+    <None Include="Resources\diving1.png" />
+    <None Include="Resources\dumpster1.jpg" />
+    <None Include="Resources\dumpster.jpg" />
     <None Include="Resources\engineering2.jpg" />
     <None Include="Resources\engineering1.jpg" />
     <None Include="Resources\social2.jpg" />

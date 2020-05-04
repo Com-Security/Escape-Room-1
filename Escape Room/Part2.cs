@@ -161,6 +161,10 @@ namespace Escape_Room
             {
                 MessageBox.Show(" WELCOME ADMIN MANAGER ! ");
                 timer1.Enabled = false;
+                //CALL PART3 FORM
+                Part3 obj1 = new Part3();
+                obj1.Show();
+                this.Hide();
             }
             else
             {
@@ -195,7 +199,6 @@ namespace Escape_Room
         {
             hintPanel2.Visible = false;
         }
-
     }
 
 }

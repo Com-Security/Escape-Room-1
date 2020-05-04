@@ -213,7 +213,7 @@
             this.panel3.Controls.Add(this.pictureBox7);
             this.panel3.Controls.Add(this.pictureBox8);
             this.panel3.Location = new System.Drawing.Point(184, 94);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(485, 743);
             this.panel3.TabIndex = 19;
@@ -225,7 +225,7 @@
             this.hintPanel2.Controls.Add(this.button1);
             this.hintPanel2.Controls.Add(this.textBox4);
             this.hintPanel2.Location = new System.Drawing.Point(0, 126);
-            this.hintPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.hintPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.hintPanel2.Name = "hintPanel2";
             this.hintPanel2.Size = new System.Drawing.Size(480, 618);
             this.hintPanel2.TabIndex = 20;
@@ -236,7 +236,7 @@
             this.button1.BackColor = System.Drawing.Color.Yellow;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(389, 484);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(81, 53);
             this.button1.TabIndex = 1;
@@ -248,7 +248,7 @@
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(13, 20);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(456, 370);
@@ -260,7 +260,7 @@
             // 
             this.answerBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerBox4.Location = new System.Drawing.Point(263, 570);
-            this.answerBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.answerBox4.Margin = new System.Windows.Forms.Padding(4);
             this.answerBox4.Name = "answerBox4";
             this.answerBox4.Size = new System.Drawing.Size(212, 30);
             this.answerBox4.TabIndex = 25;
@@ -271,7 +271,7 @@
             this.textBox5.BackColor = System.Drawing.SystemColors.Info;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(8, 20);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(465, 100);
@@ -282,7 +282,7 @@
             // 
             this.answerBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerBox2.Location = new System.Drawing.Point(3, 570);
-            this.answerBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.answerBox2.Margin = new System.Windows.Forms.Padding(4);
             this.answerBox2.Name = "answerBox2";
             this.answerBox2.Size = new System.Drawing.Size(207, 30);
             this.answerBox2.TabIndex = 23;
@@ -372,7 +372,7 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(184, 94);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(488, 703);
             this.panel1.TabIndex = 2;

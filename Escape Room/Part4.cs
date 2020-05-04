@@ -162,6 +162,9 @@ namespace Escape_Room
             {
                 MessageBox.Show("You're Free !");
                 timer1.Enabled = false;
+                TheEND obj4 = new TheEND();
+                obj4.Show();
+                this.Hide();
             }
             else
             {
@@ -190,5 +193,6 @@ namespace Escape_Room
         {
             hintPanel2.Visible = false;
         }
+
     }
 }

@@ -81,13 +81,13 @@
             // 
             // Nxtbtn1
             // 
-            this.Nxtbtn1.BackColor = System.Drawing.Color.DimGray;
-            this.Nxtbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nxtbtn1.ForeColor = System.Drawing.Color.White;
-            this.Nxtbtn1.Location = new System.Drawing.Point(587, 576);
+            this.Nxtbtn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Nxtbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nxtbtn1.ForeColor = System.Drawing.Color.Black;
+            this.Nxtbtn1.Location = new System.Drawing.Point(567, 576);
             this.Nxtbtn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nxtbtn1.Name = "Nxtbtn1";
-            this.Nxtbtn1.Size = new System.Drawing.Size(128, 44);
+            this.Nxtbtn1.Size = new System.Drawing.Size(148, 44);
             this.Nxtbtn1.TabIndex = 4;
             this.Nxtbtn1.Text = "Next >>";
             this.Nxtbtn1.UseVisualStyleBackColor = false;
@@ -95,7 +95,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.hintbtn1);
             this.panel1.Controls.Add(this.textBox1);
@@ -214,13 +214,13 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel3.BackColor = System.Drawing.SystemColors.Control;
             this.panel3.Controls.Add(this.textBox3);
             this.panel3.Controls.Add(this.hintbtn2);
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Controls.Add(this.groupBox3);
             this.panel3.Controls.Add(this.Nxtbtn2);
-            this.panel3.Location = new System.Drawing.Point(53, 84);
+            this.panel3.Location = new System.Drawing.Point(53, 86);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(727, 642);
@@ -327,13 +327,13 @@
             // 
             // Nxtbtn2
             // 
-            this.Nxtbtn2.BackColor = System.Drawing.Color.DimGray;
-            this.Nxtbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nxtbtn2.ForeColor = System.Drawing.Color.White;
-            this.Nxtbtn2.Location = new System.Drawing.Point(587, 576);
+            this.Nxtbtn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Nxtbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nxtbtn2.ForeColor = System.Drawing.Color.Black;
+            this.Nxtbtn2.Location = new System.Drawing.Point(559, 576);
             this.Nxtbtn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Nxtbtn2.Name = "Nxtbtn2";
-            this.Nxtbtn2.Size = new System.Drawing.Size(128, 44);
+            this.Nxtbtn2.Size = new System.Drawing.Size(156, 44);
             this.Nxtbtn2.TabIndex = 4;
             this.Nxtbtn2.Text = "Next >>";
             this.Nxtbtn2.UseVisualStyleBackColor = false;
