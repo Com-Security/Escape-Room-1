@@ -154,6 +154,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bulbicon.png" />
+    <None Include="Resources\engineering2.jpg" />
+    <None Include="Resources\engineering1.jpg" />
+    <None Include="Resources\social2.jpg" />
+    <None Include="Resources\social1.jpg" />
     <None Include="Resources\background1.jpg" />
     <Content Include="Resources\bulbicon.png" />
   </ItemGroup>

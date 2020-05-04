@@ -87,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Escape_Room.Properties.Resources.locks;
+            this.BackgroundImage = global::Escape_Room.Properties.Resources.background1;
             this.ClientSize = new System.Drawing.Size(859, 886);
             this.Controls.Add(this.Begin_lbl);
             this.Controls.Add(this.Description_lbl);
