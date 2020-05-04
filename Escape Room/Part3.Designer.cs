@@ -84,10 +84,10 @@
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.groupBox1);
-            this.panel2.Location = new System.Drawing.Point(532, 11);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Location = new System.Drawing.Point(399, 9);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(225, 59);
+            this.panel2.Size = new System.Drawing.Size(170, 49);
             this.panel2.TabIndex = 3;
             // 
             // groupBox1
@@ -98,11 +98,11 @@
             this.groupBox1.Controls.Add(this.Second_lbl);
             this.groupBox1.Controls.Add(this.Minute_lbl);
             this.groupBox1.Controls.Add(this.Hour_lbl);
-            this.groupBox1.Location = new System.Drawing.Point(3, 6);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Location = new System.Drawing.Point(2, 5);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(213, 47);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(160, 38);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -110,9 +110,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(133, 18);
+            this.label9.Location = new System.Drawing.Point(100, 15);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 25);
+            this.label9.Size = new System.Drawing.Size(14, 20);
             this.label9.TabIndex = 4;
             this.label9.Text = ":";
             // 
@@ -120,9 +121,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(55, 12);
+            this.label8.Location = new System.Drawing.Point(41, 10);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(19, 25);
+            this.label8.Size = new System.Drawing.Size(14, 20);
             this.label8.TabIndex = 3;
             this.label8.Text = ":";
             // 
@@ -131,9 +133,10 @@
             this.Second_lbl.AutoSize = true;
             this.Second_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Second_lbl.ForeColor = System.Drawing.Color.Red;
-            this.Second_lbl.Location = new System.Drawing.Point(159, 14);
+            this.Second_lbl.Location = new System.Drawing.Point(119, 11);
+            this.Second_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Second_lbl.Name = "Second_lbl";
-            this.Second_lbl.Size = new System.Drawing.Size(49, 32);
+            this.Second_lbl.Size = new System.Drawing.Size(38, 26);
             this.Second_lbl.TabIndex = 2;
             this.Second_lbl.Text = "00";
             // 
@@ -142,9 +145,10 @@
             this.Minute_lbl.AutoSize = true;
             this.Minute_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Minute_lbl.ForeColor = System.Drawing.Color.Red;
-            this.Minute_lbl.Location = new System.Drawing.Point(80, 14);
+            this.Minute_lbl.Location = new System.Drawing.Point(60, 11);
+            this.Minute_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Minute_lbl.Name = "Minute_lbl";
-            this.Minute_lbl.Size = new System.Drawing.Size(49, 32);
+            this.Minute_lbl.Size = new System.Drawing.Size(38, 26);
             this.Minute_lbl.TabIndex = 1;
             this.Minute_lbl.Text = "00";
             // 
@@ -153,9 +157,10 @@
             this.Hour_lbl.AutoSize = true;
             this.Hour_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hour_lbl.ForeColor = System.Drawing.Color.Red;
-            this.Hour_lbl.Location = new System.Drawing.Point(5, 12);
+            this.Hour_lbl.Location = new System.Drawing.Point(4, 10);
+            this.Hour_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Hour_lbl.Name = "Hour_lbl";
-            this.Hour_lbl.Size = new System.Drawing.Size(49, 32);
+            this.Hour_lbl.Size = new System.Drawing.Size(38, 26);
             this.Hour_lbl.TabIndex = 0;
             this.Hour_lbl.Text = "00";
             // 
@@ -167,10 +172,10 @@
             this.panel1.Controls.Add(this.hintbtn2);
             this.panel1.Controls.Add(this.textBox5);
             this.panel1.Controls.Add(this.groupBox3);
-            this.panel1.Location = new System.Drawing.Point(66, 122);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(50, 99);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(727, 642);
+            this.panel1.Size = new System.Drawing.Size(545, 522);
             this.panel1.TabIndex = 17;
             // 
             // Nxtbtn1
@@ -178,10 +183,10 @@
             this.Nxtbtn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Nxtbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nxtbtn1.ForeColor = System.Drawing.Color.Black;
-            this.Nxtbtn1.Location = new System.Drawing.Point(546, 586);
-            this.Nxtbtn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Nxtbtn1.Location = new System.Drawing.Point(410, 476);
+            this.Nxtbtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Nxtbtn1.Name = "Nxtbtn1";
-            this.Nxtbtn1.Size = new System.Drawing.Size(169, 44);
+            this.Nxtbtn1.Size = new System.Drawing.Size(127, 36);
             this.Nxtbtn1.TabIndex = 16;
             this.Nxtbtn1.Text = "Next >>";
             this.Nxtbtn1.UseVisualStyleBackColor = false;
@@ -192,12 +197,12 @@
             this.textBox3.BackColor = System.Drawing.Color.DimGray;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(142, 42);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox3.Location = new System.Drawing.Point(106, 34);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(439, 90);
+            this.textBox3.Size = new System.Drawing.Size(330, 74);
             this.textBox3.TabIndex = 15;
             this.textBox3.Text = "Hacking... What is it ?";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -208,10 +213,10 @@
             this.hintbtn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hintbtn2.ImageIndex = 0;
             this.hintbtn2.ImageList = this.imageList1;
-            this.hintbtn2.Location = new System.Drawing.Point(20, 574);
-            this.hintbtn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hintbtn2.Location = new System.Drawing.Point(15, 466);
+            this.hintbtn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.hintbtn2.Name = "hintbtn2";
-            this.hintbtn2.Size = new System.Drawing.Size(53, 44);
+            this.hintbtn2.Size = new System.Drawing.Size(40, 36);
             this.hintbtn2.TabIndex = 14;
             this.hintbtn2.UseVisualStyleBackColor = false;
             this.hintbtn2.Click += new System.EventHandler(this.hintbtn2_Click);
@@ -225,10 +230,10 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(169, 494);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox5.Location = new System.Drawing.Point(127, 401);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(376, 49);
+            this.textBox5.Size = new System.Drawing.Size(283, 41);
             this.textBox5.TabIndex = 13;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -240,21 +245,21 @@
             this.groupBox3.Controls.Add(this.pictureBox7);
             this.groupBox3.Controls.Add(this.pictureBox8);
             this.groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox3.Location = new System.Drawing.Point(135, 150);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Location = new System.Drawing.Point(101, 122);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(446, 317);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(334, 258);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Escape_Room.Properties.Resources.social1;
-            this.pictureBox5.Location = new System.Drawing.Point(6, 9);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(4, 7);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(211, 143);
+            this.pictureBox5.Size = new System.Drawing.Size(158, 116);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
@@ -262,10 +267,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Escape_Room.Properties.Resources.engineering1;
-            this.pictureBox6.Location = new System.Drawing.Point(7, 156);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox6.Location = new System.Drawing.Point(5, 127);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(206, 148);
+            this.pictureBox6.Size = new System.Drawing.Size(154, 120);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
@@ -273,10 +278,10 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Escape_Room.Properties.Resources.engineering2;
-            this.pictureBox7.Location = new System.Drawing.Point(219, 156);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox7.Location = new System.Drawing.Point(164, 127);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(221, 148);
+            this.pictureBox7.Size = new System.Drawing.Size(166, 120);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
@@ -284,10 +289,10 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Escape_Room.Properties.Resources.social2;
-            this.pictureBox8.Location = new System.Drawing.Point(219, 9);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox8.Location = new System.Drawing.Point(164, 7);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(221, 143);
+            this.pictureBox8.Size = new System.Drawing.Size(166, 116);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 9;
             this.pictureBox8.TabStop = false;
@@ -300,10 +305,10 @@
             this.panel6.Controls.Add(this.textBox6);
             this.panel6.Controls.Add(this.groupBox2);
             this.panel6.Controls.Add(this.Nextbutton2);
-            this.panel6.Location = new System.Drawing.Point(66, 122);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel6.Location = new System.Drawing.Point(50, 99);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(727, 644);
+            this.panel6.Size = new System.Drawing.Size(545, 523);
             this.panel6.TabIndex = 18;
             this.panel6.Visible = false;
             // 
@@ -312,12 +317,12 @@
             this.textBox1.BackColor = System.Drawing.Color.DimGray;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(142, 42);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(106, 34);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(439, 90);
+            this.textBox1.Size = new System.Drawing.Size(330, 74);
             this.textBox1.TabIndex = 15;
             this.textBox1.Text = "What to do with your data?";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -328,10 +333,10 @@
             this.hintbutton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hintbutton1.ImageIndex = 0;
             this.hintbutton1.ImageList = this.imageList1;
-            this.hintbutton1.Location = new System.Drawing.Point(20, 574);
-            this.hintbutton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hintbutton1.Location = new System.Drawing.Point(15, 466);
+            this.hintbutton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.hintbutton1.Name = "hintbutton1";
-            this.hintbutton1.Size = new System.Drawing.Size(53, 44);
+            this.hintbutton1.Size = new System.Drawing.Size(40, 36);
             this.hintbutton1.TabIndex = 14;
             this.hintbutton1.UseVisualStyleBackColor = false;
             this.hintbutton1.Click += new System.EventHandler(this.hintbutton1_Click);
@@ -339,10 +344,10 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(169, 494);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox6.Location = new System.Drawing.Point(127, 401);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(376, 49);
+            this.textBox6.Size = new System.Drawing.Size(283, 41);
             this.textBox6.TabIndex = 13;
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -354,21 +359,21 @@
             this.groupBox2.Controls.Add(this.pictureBox3);
             this.groupBox2.Controls.Add(this.pictureBox4);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox2.Location = new System.Drawing.Point(135, 150);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Location = new System.Drawing.Point(101, 122);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(446, 317);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(334, 258);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Escape_Room.Properties.Resources.dumpster;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(211, 143);
+            this.pictureBox1.Size = new System.Drawing.Size(158, 116);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -376,10 +381,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Escape_Room.Properties.Resources.diving1;
-            this.pictureBox2.Location = new System.Drawing.Point(7, 156);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(5, 127);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(206, 148);
+            this.pictureBox2.Size = new System.Drawing.Size(154, 120);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
@@ -387,10 +392,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Escape_Room.Properties.Resources.diving2;
-            this.pictureBox3.Location = new System.Drawing.Point(219, 156);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(164, 127);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(221, 148);
+            this.pictureBox3.Size = new System.Drawing.Size(166, 120);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
@@ -398,10 +403,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Escape_Room.Properties.Resources.dumpster1;
-            this.pictureBox4.Location = new System.Drawing.Point(219, 9);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(164, 7);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(221, 143);
+            this.pictureBox4.Size = new System.Drawing.Size(166, 116);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 9;
             this.pictureBox4.TabStop = false;
@@ -411,10 +416,10 @@
             this.Nextbutton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Nextbutton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nextbutton2.ForeColor = System.Drawing.Color.Black;
-            this.Nextbutton2.Location = new System.Drawing.Point(546, 576);
-            this.Nextbutton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Nextbutton2.Location = new System.Drawing.Point(410, 468);
+            this.Nextbutton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Nextbutton2.Name = "Nextbutton2";
-            this.Nextbutton2.Size = new System.Drawing.Size(169, 44);
+            this.Nextbutton2.Size = new System.Drawing.Size(127, 36);
             this.Nextbutton2.TabIndex = 4;
             this.Nextbutton2.Text = "Next >>";
             this.Nextbutton2.UseVisualStyleBackColor = false;
@@ -422,15 +427,17 @@
             // 
             // Part3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Escape_Room.Properties.Resources.background1;
-            this.ClientSize = new System.Drawing.Size(859, 886);
+            this.ClientSize = new System.Drawing.Size(644, 720);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Part3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
