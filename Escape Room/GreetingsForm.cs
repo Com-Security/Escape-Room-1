@@ -28,5 +28,6 @@ namespace Escape_Room
         {
             pictureBox1.BackColor = Color.FromArgb(0, 0, 0, 0);
         }
+
     }
 }
