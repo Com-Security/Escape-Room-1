@@ -199,6 +199,7 @@ namespace Escape_Room
         {
             hintPanel2.Visible = false;
         }
+
     }
 
 }

@@ -163,6 +163,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bulbicon.png" />
+    <None Include="Resources\PadLock-icon4.png" />
+    <None Include="Resources\PadLock-icon3.png" />
+    <None Include="Resources\PadLock-icon2.png" />
+    <None Include="Resources\PadLock-icon1.png" />
+    <None Include="Resources\locks3.png" />
+    <None Include="Resources\locks2.png" />
+    <None Include="Resources\locks1.png" />
     <None Include="Resources\diving2.jpg" />
     <None Include="Resources\diving1.png" />
     <None Include="Resources\dumpster1.jpg" />

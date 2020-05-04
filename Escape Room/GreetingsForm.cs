@@ -23,5 +23,10 @@ namespace Escape_Room
             obj1.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.BackColor = Color.FromArgb(0, 0, 0, 0);
+        }
     }
 }
