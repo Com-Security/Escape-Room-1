@@ -40,7 +40,7 @@
             this.head1_lbl.AutoSize = true;
             this.head1_lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.head1_lbl.Font = new System.Drawing.Font("Snap ITC", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.head1_lbl.Location = new System.Drawing.Point(144, 382);
+            this.head1_lbl.Location = new System.Drawing.Point(121, 382);
             this.head1_lbl.Name = "head1_lbl";
             this.head1_lbl.Size = new System.Drawing.Size(582, 79);
             this.head1_lbl.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             this.Begin_btn.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.Begin_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Begin_btn.Location = new System.Drawing.Point(324, 541);
+            this.Begin_btn.Location = new System.Drawing.Point(301, 540);
             this.Begin_btn.Name = "Begin_btn";
             this.Begin_btn.Size = new System.Drawing.Size(239, 75);
             this.Begin_btn.TabIndex = 4;
@@ -61,22 +61,22 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.Font = new System.Drawing.Font("Simplified Arabic Fixed", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(153, 725);
+            this.textBox1.Location = new System.Drawing.Point(121, 721);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(606, 117);
             this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "Designed by:                     Shandy Morris 1602956                    Erick G" +
-    "entles 1602971";
+            this.textBox1.Text = "Designed by:                                          Shandy Morris 1602956      " +
+    "                                                Erick Gentles 1602971";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Escape_Room.Properties.Resources.PadLock_icon4;
-            this.pictureBox1.Location = new System.Drawing.Point(398, 207);
+            this.pictureBox1.Location = new System.Drawing.Point(369, 207);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(126, 172);
             this.pictureBox1.TabIndex = 6;
