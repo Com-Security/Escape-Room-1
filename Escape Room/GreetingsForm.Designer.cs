@@ -63,11 +63,11 @@
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.textBox1.Font = new System.Drawing.Font("Simplified Arabic Fixed", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(153, 730);
+            this.textBox1.Location = new System.Drawing.Point(153, 725);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(606, 112);
+            this.textBox1.Size = new System.Drawing.Size(606, 117);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "Designed by:                     Shandy Morris 1602956                    Erick G" +
     "entles 1602971";
