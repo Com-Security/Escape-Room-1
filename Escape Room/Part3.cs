@@ -23,14 +23,6 @@ namespace Escape_Room
             
         }
 
-        private void Clear_btn_Click(object sender, EventArgs e)
-        {
-            Question1_txt.Text = null;
-            Question2_txt.Text = null;
-            Question3_txt.Text = null;
-            Question4_txt.Text = null;
-        }
-
         private void timer1_Tick_2(object sender, EventArgs e)
         {
             seconds = int.Parse(Second_lbl.Text);
@@ -93,42 +85,10 @@ namespace Escape_Room
             }
         }
 
-        private void Submit_btn_Click(object sender, EventArgs e)
-        {
-           
-
-            
-           
-
-            if (Question1_txt.Text == "true" || Question1_txt.Text == "True")
-            {
-                MessageBox.Show("Correct Answer Question 1");
-                
-            }
-            else
-            {
-                //MessageBox.Show("Incorrect answer for Question 1");
-
-                //int seconds = int.Parse(Minute_lbl.Text);
-                minutes = minutes - 1;
-                Minute_lbl.Text = minutes.ToString();
-
-                if (minutes < 0)
-                {
-                    int temp = 0;
-                    Minute_lbl.Text = temp.ToString();
-
-                    seconds = seconds - seconds;
-                    Second_lbl.Text = seconds.ToString();
-                    
-                }
-
-            }
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
+            panel1.BackColor = Color.FromArgb(100, 100, 100, 100);
+
             //DECLARE & INITIALIZE LABEL VARIABLES
             seconds = int.Parse(Second_lbl.Text);
             minutes = int.Parse(Minute_lbl.Text);
@@ -136,7 +96,7 @@ namespace Escape_Room
 
             //INITIALIZE VARIABLES
             seconds = 0;
-            minutes = 10;
+            minutes = 2;
             hour = 0;
 
             //PASS VALUES TO LABELS

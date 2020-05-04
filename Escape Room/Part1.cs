@@ -26,14 +26,13 @@ namespace Escape_Room
             if (textBox1.Text == "Phishing" || textBox1.Text == "phishing" || textBox1.Text == "PHISHING")
             {
                 MessageBox.Show("Correct");
-                //MessageBox.Show("Loading Second Page");
                 panel3.Show();
             }
             else
             {
                 MessageBox.Show("Incorrect");
 
-                seconds = seconds - 10;
+                seconds = seconds - 20;
                 Second_lbl.Text = seconds.ToString();
 
                 if (seconds <= 0)
@@ -79,7 +78,7 @@ namespace Escape_Room
             
             if (seconds > 0 )
             {
-                seconds = seconds - 10;
+                seconds = seconds - 20;
                 Second_lbl.Text = seconds.ToString();
 
             }
@@ -162,7 +161,7 @@ namespace Escape_Room
             
             if (seconds > 0)
             {
-                seconds = seconds - 10;
+                seconds = seconds - 20;
                 Second_lbl.Text = seconds.ToString();
 
             }
@@ -179,7 +178,7 @@ namespace Escape_Room
             if (textBox4.Text == "Data Sharing" || textBox4.Text == "data sharing" || textBox4.Text == "DATA SHARING")
             {
                 MessageBox.Show("Correct");
-                MessageBox.Show("Loading Level 3");
+                MessageBox.Show("Loading Level 2");
                 Part3 obj1 = new Part3();
                 obj1.Show();
                 this.Hide();
@@ -188,7 +187,7 @@ namespace Escape_Room
             {
                 MessageBox.Show("Incorrect");
 
-                seconds = seconds - 10;
+                seconds = seconds - 20;
                 Second_lbl.Text = seconds.ToString();
 
                 if (seconds <= 0)

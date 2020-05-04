@@ -154,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bulbicon.png" />
+    <None Include="Resources\background1.jpg" />
     <Content Include="Resources\bulbicon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
