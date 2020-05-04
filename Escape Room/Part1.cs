@@ -179,7 +179,7 @@ namespace Escape_Room
             {
                 MessageBox.Show("Correct");
                 MessageBox.Show("Loading Level 2");
-                Part3 obj1 = new Part3();
+                Part2 obj1 = new Part2();
                 obj1.Show();
                 this.Hide();
             }

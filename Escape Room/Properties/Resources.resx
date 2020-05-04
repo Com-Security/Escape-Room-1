@@ -121,11 +121,20 @@
   <data name="fishicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fishicon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dumpster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumpster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="social1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\social1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Data1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Data1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="engineering2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\engineering2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diving1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diving1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hookicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hookicon1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,10 +175,13 @@
   <data name="phishing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phishing2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dumpster1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dumpster1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sharing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sharing2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="engineering2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\engineering2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diving2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diving2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace Escape_Room
 {
-    public partial class GreetingsForm : Form
+    public partial class TheEND : Form
     {
-        public GreetingsForm()
+        public TheEND()
         {
             InitializeComponent();
         }
 
-        private void Begin_btn_Click(object sender, EventArgs e)
+        private void Exit_btn_Click(object sender, EventArgs e)
         {
-            Part1 obj1 = new Part1();
-            obj1.Show();
-            this.Hide();
+            Application.Exit();
         }
     }
 }
