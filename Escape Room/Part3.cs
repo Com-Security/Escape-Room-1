@@ -144,9 +144,8 @@ namespace Escape_Room
 
         private void Nextbutton2_Click(object sender, EventArgs e)
         {
-            string answer2 = textBox6.Text.ToUpper();
-            if (answer2 == "Dumpster Diving" || answer2 == "dumpster diving"
-                || answer2 == "DUMPSTER DIVING")
+            String answer2 = textBox6.Text.ToUpper();
+            if (answer2 == "DUMPSTER DIVING")
             {
                 MessageBox.Show("Correct");
                 Part4 obj3 = new Part4();
@@ -171,9 +170,8 @@ namespace Escape_Room
 
         private void Nxtbtn1_Click(object sender, EventArgs e)
         {
-            string answer3 = textBox5.Text.ToUpper();
-            if (answer3 == "Social Engineering" || answer3 == "social engineering"
-                || answer3 == "SOCIAL ENGINEERING")
+            String answer = textBox5.Text.ToUpper();
+            if (answer == "SOCIAL ENGINEERING")
             {
                 MessageBox.Show("Correct");
                 panel6.Show();
