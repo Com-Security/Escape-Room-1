@@ -180,6 +180,7 @@ namespace Escape_Room
             {
                 MessageBox.Show("Correct");
                 MessageBox.Show("Loading Level 2");
+                timer1.Enabled = false;
                 Part2 obj1 = new Part2();
                 obj1.Show();
                 this.Hide();

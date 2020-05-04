@@ -148,6 +148,7 @@ namespace Escape_Room
             if (answer2 == "DUMPSTER DIVING")
             {
                 MessageBox.Show("Correct");
+                timer1.Enabled = false;
                 Part4 obj3 = new Part4();
                 obj3.Show();
                 this.Hide();
